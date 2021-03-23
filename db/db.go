@@ -23,7 +23,7 @@ import (
 	"runtime"
 	"strings"
 
-	"firebase.google.com/go/v4/internal"
+	"github.com/maneahealoapp/firebase-admin-go/v4/internal"
 	"google.golang.org/api/option"
 )
 

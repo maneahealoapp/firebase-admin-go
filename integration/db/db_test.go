@@ -28,10 +28,10 @@ import (
 	"reflect"
 	"testing"
 
-	firebase "firebase.google.com/go/v4"
-	"firebase.google.com/go/v4/db"
-	"firebase.google.com/go/v4/errorutils"
-	"firebase.google.com/go/v4/integration/internal"
+	firebase "github.com/maneahealoapp/firebase-admin-go/v4"
+	"github.com/maneahealoapp/firebase-admin-go/v4/db"
+	"github.com/maneahealoapp/firebase-admin-go/v4/errorutils"
+	"github.com/maneahealoapp/firebase-admin-go/v4/integration/internal"
 )
 
 var client *db.Client
